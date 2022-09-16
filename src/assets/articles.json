@@ -3,7 +3,7 @@
         "id": 1, 
         "title": "Browser: cookies, storage, cache", 
         "description": "These are important terms to better understand how browser works and how to use resources effectively.", 
-        "previewImage": "1.png",
+        "previewImage": "Browser_cookies_storage_cache.png",
         "previewImageDescription": "browsers tools for storage",
         "content": "Lorem Ipsum"
     },
@@ -11,7 +11,7 @@
         "id": 2, 
         "title": "How the browser parses and constructs a web page", 
         "description": "This question is often shown in the list of the interview questions for frontend developers. That's interesting that the answer, actually, is not only to demonstrate the level of one's erudition and outlook. ", 
-        "previewImage": "articles/2/browser-logos.webp",
+        "previewImage": "browser-logos.webp",
         "previewImageDescription": "browsers logos",
         "content": "Lorem Ipsum" 
     },
@@ -19,7 +19,7 @@
         "id": 3, 
         "title": "GIMP: Extract images from PSD", 
         "description": "Short instruction with screenshots", 
-        "previewImage": "articles/3/gimp.png",
+        "previewImage": "gimp.png",
         "previewImageDescription": "GIMP logo",
         "content": "Lorem Ipsum" 
     },
@@ -27,7 +27,7 @@
         "id": 4, 
         "title": "OpenSSH for github, host and local machines", 
         "description": "The goal: to push changes of the web application quickly from my local machine to both github and the hosting machine.", 
-        "previewImage": "articles/4/open-ssh.png",
+        "previewImage": "open-ssh.png",
         "previewImageDescription": "OpenSSH logo",
         "content": "Lorem Ipsum" 
     }
