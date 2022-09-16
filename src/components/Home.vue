@@ -18,7 +18,7 @@
         <div class="container__articles">
             <div class="article-preview" v-for="article in articles">
                 <router-link :to="/articles/ + article.id" class="article-preview__inner">
-                    <img class="article-preview__image" :src="'./src/assets/images/' + article.previewImage" :alt="article.previewImageDescription" />
+                    <img class="article-preview__image" :src="article.previewImage" :alt="article.previewImageDescription" />
                     <h2 class="article-preview__title">{{ article.title }}</h2>
                     <p class="article-preview__description">{{ article.description }}</p>
                 </router-link>

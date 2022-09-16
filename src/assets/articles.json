@@ -3,7 +3,7 @@
         "id": 1, 
         "title": "Browser: cookies, storage, cache", 
         "description": "These are important terms to better understand how browser works and how to use resources effectively.", 
-        "previewImage": "articles/1/1.png",
+        "previewImage": "1.png",
         "previewImageDescription": "browsers tools for storage",
         "content": "Lorem Ipsum"
     },
