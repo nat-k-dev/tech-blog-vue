@@ -1,0 +1,14 @@
+[
+	{ 
+        "id": 1, 
+        "title": "The first post", 
+        "description": "The first post exerpt", 
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore temporibus officia voluptatum reiciendis, illo ex iste molestias, doloremque! Laboriosam nihil sit, tempora nam porro placeat reprehenderit non exercitationem ipsa magnam!"  
+    },
+	{ 
+        "id": 2, 
+        "title": "The second post", 
+        "description": "The second post exerpt", 
+        "content": "Consectetur adipisicing elit. Inventore temporibus officia voluptatum reiciendis, illo ex iste molestias, doloremque! Laboriosam nihil sit, tempora nam porro placeat reprehenderit non exercitationem ipsa magnam!"  
+    }
+]
