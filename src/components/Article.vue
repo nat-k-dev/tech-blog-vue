@@ -23,8 +23,8 @@
 </script>
 
 <template>
-<h1>{{ article.title }}</h1>
-<p>{{ article.content }}</p>
+    <h1 class="page__title">{{ article.title }}</h1>
+    <div>{{ article.content }}</div>
 </template>
 
 <style scoped>

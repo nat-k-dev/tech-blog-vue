@@ -22,5 +22,6 @@ a {
 
 .page__title {
   padding: 2rem 1rem 1rem;
-  font-weight: 700;  
+  font-weight: 700;
+  color: var(--color-text);
 }

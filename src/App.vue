@@ -39,6 +39,7 @@ header {
 footer {
   text-align: center;
   height: var(--footer-height);
+  color: var(--color-text);
 }
 main {
   min-height: calc(100vh - var(--header-height) - var(--footer-height) - var(--app-padding) - var(--app-padding));

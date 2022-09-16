@@ -33,9 +33,6 @@
     flex-direction: column;
     place-items: center center;
 }
-.page__title {
-    color: black;
-}
 .container__articles {
     display: grid;
     gap: 1rem;

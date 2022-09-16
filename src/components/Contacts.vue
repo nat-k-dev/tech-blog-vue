@@ -13,6 +13,7 @@
     flex-direction: column;
     place-items: center center;
     gap: 2rem;
+    color: var(--color-text);
 }
 .title {
     padding: 2rem 1rem 1rem;
