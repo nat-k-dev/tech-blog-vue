@@ -1,0 +1,2 @@
+1) When I switch between "Contacts" and "Tech blog" pages, the background-image changes its position (because Tech blog has vertical scroll, while Contacts has no vertical scroll => screen width is changing)
+2) On Mobile devices. The background image is changing its size and position when scrolling a page (because screen height is changing, depending if there is a browser's url line in the top of the smartphone)
