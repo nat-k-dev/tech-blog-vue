@@ -24,8 +24,17 @@
 
 <template>
     <h1 class="page__title">{{ article.title }}</h1>
-    <div>{{ article.content }}</div>
+    <div class="article__content" v-html="article.content"></div>
 </template>
 
 <style scoped>
+.article__content {
+    max-width: 768px;
+    line-height: 1.5rem;
+    text-align: justify;
+    margin-bottom: 3rem;
+}
+.red-text {
+    color: red;
+}
 </style>
