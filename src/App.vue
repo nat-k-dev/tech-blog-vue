@@ -1,6 +1,16 @@
 <script setup>
 import Home from './components/Home.vue'
 import Contacts from './components/Contacts.vue'
+import router from './router.js'
+
+// Navigate to previous page if Backspace was pressed
+function historyBack(e) {
+    if (e.keyCode === 8) {
+      router.go(-1);
+    }
+}
+window.addEventListener('keyup', historyBack);
+
 </script>
 
 <template>
