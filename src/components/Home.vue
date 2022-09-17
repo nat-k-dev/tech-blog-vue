@@ -1,5 +1,5 @@
 <script>
-    import articlesJson from '../assets/articles.json'
+    import articlesJson from '../assets/articles.json';
     export default {
         data() {
             return {

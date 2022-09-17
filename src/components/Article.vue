@@ -34,7 +34,4 @@
     text-align: justify;
     margin-bottom: 3rem;
 }
-.red-text {
-    color: red;
-}
 </style>
