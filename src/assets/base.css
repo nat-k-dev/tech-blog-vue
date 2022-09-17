@@ -49,13 +49,7 @@
   position: relative;
 }
 
-html {
-  overflow: hidden;
-}
-
 body {
-  overflow-y: scroll;
-  -webkit-overflow-scrolling:touch;
   min-height: 100vh;
   color: var(--color-text);
   /*background: var(--color-background);*/
