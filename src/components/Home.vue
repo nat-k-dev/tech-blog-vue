@@ -8,6 +8,11 @@
         },
         mounted() {
             this.articles = articlesJson;
+        },
+        methods: {
+            moveUp() {
+                window.scrollTo(0, 0);
+            }
         }
     }
 </script>
@@ -17,7 +22,7 @@
         <h1 class="page__title">Articles by Natalia K.</h1>
         <div class="container__articles">
             <div class="article-preview" v-for="article in articles">
-                <router-link :to="/articles/ + article.id" class="article-preview__inner">
+                <router-link :to="/articles/ + article.id" class="article-preview__inner" @click="moveUp">
                     <img class="article-preview__image" :src="article.previewImage" :alt="article.previewImageDescription" />
                     <h2 class="article-preview__title">{{ article.title }}</h2>
                     <p class="article-preview__description">{{ article.description }}</p>
