@@ -65,4 +65,5 @@ body {
   background-position: center;
   background-size: cover;
   z-index: -1;
+  transition: height 999999s;
 }
