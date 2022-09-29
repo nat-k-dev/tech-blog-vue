@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <h1 class="page__title">Contacts</h1>
-        <p class="container__text">Hello! I am a frontend and websites developer living in the Netherlands. I am passionate about website’s interfaces and I like to share my knowledge and create helpful instructions. I hope you find something useful reading this blog. If you want to know more about me, please visit my website:</p>
+        <p class="container__text">Hello! I am a frontend and websites developer. I am passionate about website’s interfaces and I like to share my knowledge and create helpful instructions. I hope you find something useful reading this blog. If you want to know more about me, please visit my website:</p>
         <a class="container__button" href="https://natkdev.com/" target="_blank" rel="">natkdev.com</a>
     </div>
 </template>

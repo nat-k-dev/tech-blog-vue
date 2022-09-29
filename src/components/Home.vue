@@ -19,7 +19,7 @@
 
 <template>
     <div class="container">
-        <h1 class="page__title">Articles by Natalia K.</h1>
+        <h1 class="page__title">Articles about tech and web</h1>
         <div class="container__articles">
             <div class="article-preview" v-for="article in articles">
                 <router-link :to="/articles/ + article.id" class="article-preview__inner" @click="moveUp">
