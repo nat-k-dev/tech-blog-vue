@@ -33,5 +33,6 @@
     line-height: 1.5rem;
     text-align: justify;
     margin-bottom: 3rem;
+    color: black;
 }
 </style>
