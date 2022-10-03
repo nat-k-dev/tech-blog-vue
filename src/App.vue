@@ -31,7 +31,7 @@ window.addEventListener('keyup', historyBack);
   display: flex;
   justify-content: space-around;
   background-color: var(--vt-c-black);
-  opacity: 0.9;
+  opacity: 0.8;
   border-radius: 1rem;
   padding: 0.75rem;
 }
