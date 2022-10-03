@@ -46,7 +46,6 @@
     margin-bottom: 3rem;
 }
 .article-preview {
-    padding: 3rem 1rem;
     border-radius: 1rem;
     background-color: var(--vt-c-black);
     opacity: 0.8;
@@ -56,6 +55,7 @@
     flex-direction: column;
     place-items: center center;
     text-align: center;
+    padding: 3rem 2rem;
 }
 .article-preview:hover {
     opacity: 0.9;
