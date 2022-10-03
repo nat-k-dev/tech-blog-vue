@@ -33,7 +33,7 @@ window.addEventListener('keyup', historyBack);
   background-color: var(--vt-c-black);
   opacity: 0.9;
   border-radius: 1rem;
-  padding: 0.5rem;
+  padding: 0.75rem;
 }
 .nav-item {
   padding: 0 0.5rem;

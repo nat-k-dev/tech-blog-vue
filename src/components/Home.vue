@@ -46,7 +46,7 @@
     margin-bottom: 3rem;
 }
 .article-preview {
-    padding: 1rem;
+    padding: 3rem 1rem;
     border-radius: 1rem;
     background-color: var(--vt-c-black);
     opacity: 0.8;
