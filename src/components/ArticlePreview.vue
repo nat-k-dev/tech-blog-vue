@@ -50,7 +50,7 @@
                                                                              4;
                     let ratio = articleId % columnsNumber;
                     ratio = ratio !== 0 ? ratio : columnsNumber;
-                    const animationDelayBasis = 300; // ms
+                    const animationDelayBasis = 200; // ms
                     return animationDelayBasis * ratio;
             },
             moveUp() {
@@ -96,8 +96,7 @@
 .slide-in {
     opacity: 0;
     transform: scale(0.8);
-    transition: opacity 500ms ease-in, transform 500ms ease-in;
-    
+    transition: opacity 200ms ease-in, transform 400ms ease-in;
 }
 .slide-in.appear {
     opacity: 0.8;
