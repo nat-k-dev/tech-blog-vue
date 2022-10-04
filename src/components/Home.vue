@@ -1,18 +1,17 @@
 <script>
     import articlesJson from '../assets/articles.json';
+    import ArticlePreview from './ArticlePreview.vue';
     export default {
         data() {
             return {
-            articles: []
+                articles: []
             }
+        },
+        components: {
+            ArticlePreview
         },
         mounted() {
             this.articles = articlesJson;
-        },
-        methods: {
-            moveUp() {
-                window.scrollTo(0, 0);
-            }
         }
     }
 </script>
@@ -21,12 +20,8 @@
     <div class="container">
         <h1 class="page__title">Articles about tech and web</h1>
         <div class="container__articles">
-            <div class="article-preview" v-for="article in articles">
-                <router-link :to="/articles/ + article.id" class="article-preview__inner" @click="moveUp">
-                    <img class="article-preview__image" :src="article.previewImage" :alt="article.previewImageDescription" />
-                    <h2 class="article-preview__title">{{ article.title }}</h2>
-                    <p class="article-preview__description">{{ article.description }}</p>
-                </router-link>
+            <div class="article-preview" v-for="article in articles" >
+                <ArticlePreview :article="article" />
             </div>
         </div>
     </div>
@@ -50,43 +45,19 @@
     background-color: var(--vt-c-black);
     opacity: 0.8;
 }
-.article-preview__inner {
-    display: flex;
-    flex-direction: column;
-    place-items: center center;
-    text-align: center;
-    padding: 3rem 2rem;
-}
 .article-preview:hover {
     opacity: 0.9;
-}
-.article-preview__image {
-    max-width: 20rem;
-    height: 10rem;
-}
-.article-preview__title {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    height: 3rem;
-    display: flex;
-    place-items: center center;
-    font-weight: 700;
-}
-.article-preview__description {
-    color: var(--vt-c-text-dark-2);
 }
 @media (min-width: 768px) {
     .container__articles {
         grid-template-columns: repeat(2, 1fr);
     }
 }
-
 @media (min-width: 1280px) {
     .container__articles {
         grid-template-columns: repeat(3, 1fr);
     }
 }
-
 @media (min-width: 1600px) {
     .container__articles {
         grid-template-columns: repeat(4, 1fr);
