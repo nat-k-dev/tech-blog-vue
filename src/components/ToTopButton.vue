@@ -19,7 +19,7 @@
 </script>
 
 <template>
-    <button @click="moveToTop" id="toTopBtn" title="Go to top">&#129093;</button>
+    <button @click="moveToTop" id="toTopBtn" title="Go to top"><i class="arrow up"></i></button>
 </template>
 
 <style scoped>
@@ -44,5 +44,15 @@
 }
 #toTopBtn:hover {
   opacity: 1;
+}
+.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
 }
 </style>
