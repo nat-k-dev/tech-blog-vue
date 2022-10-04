@@ -1,6 +1,7 @@
 <script>
     import articlesJson from '../assets/articles.json';
     import ArticlePreview from './ArticlePreview.vue';
+    import ToTopButton from './ToTopButton.vue';
     export default {
         data() {
             return {
@@ -8,7 +9,8 @@
             }
         },
         components: {
-            ArticlePreview
+            ArticlePreview,
+            ToTopButton
         },
         mounted() {
             this.articles = articlesJson;
@@ -24,7 +26,9 @@
                 <ArticlePreview :article="article" />
             </div>
         </div>
+        <ToTopButton />
     </div>
+    
 </template>
 
 <style scoped>

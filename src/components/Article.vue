@@ -1,10 +1,14 @@
 <script>
     import articlesJson from '../assets/articles.json';
+    import ToTopButton from './ToTopButton.vue';
     export default {
         data() {
             return {
                 article: {}
             };
+        },
+        components: {
+            ToTopButton
         },
         mounted() {
             this.article = this.fundById(this.$route.params.id);
@@ -25,6 +29,7 @@
 <template>
     <h1 class="page__title">{{ article.title }}</h1>
     <div class="article__content" v-html="article.content"></div>
+    <ToTopButton />
 </template>
 
 <style scoped>
